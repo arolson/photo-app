@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h2>Photo-App</h2>
 
-Things you may want to cover:
+<h3>Udemy Course Project</h3>
 
-* Ruby version
+Built an app that allows users to sign-up, and use the Stripe payment system to aquire access to photo uploading to Amazon Web Service(AWS).
 
-* System dependencies
+* You may create a user account, fulfilled by the devise gem.
+* Pay for uploading services through the Stripe service/gem.
+* Upload images to individual accounts via AWS.
+# Configuration
+Follow the [Ruby on Rails guide](http://guides.rubyonrails.org/getting_started.html) to correctly setup your local enviroment.
+<h3>Development instructions</h3>
+<ol>
+  Clone the repository then run the following commands inside the folder:
+  <li>cd photo-app</li>
+  <li>bundle install --without production</li>
+  <li>rake db:migrate</li>
+  <li>rails s -b 0.0.0.0</li>
+</ol>
+<h3>License</h3>
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application was built as a Course Project for Udemy The Complete Ruby on Rails Developer Course.

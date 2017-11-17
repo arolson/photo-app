@@ -12,8 +12,8 @@ Built an app that allows users to sign-up, and use the Stripe payment system to 
 # Configuration
 Follow the [Ruby on Rails guide](http://guides.rubyonrails.org/getting_started.html) to correctly setup your local enviroment.
 <h3>Development instructions</h3>
-<ol>
 Clone the repository then run the following commands from the command line:
+<ol>
   <li>cd photo-app</li>
   <li>bundle install --without production</li>
   <li>rake db:migrate</li>

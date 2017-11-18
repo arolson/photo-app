@@ -14,6 +14,10 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem "font-awesome-rails"
 gem 'stripe'
+# AWS - gems for image uploader
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
